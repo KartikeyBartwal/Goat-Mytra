@@ -1,0 +1,11 @@
+owner_name,adhaar_number,goat_id,milk_in_litres,age,height,weight,pregnancy,behavior,gender,hay_grass_intake,meat_quality_of_the_goat,milk_quality_of_the_goat
+Aarav,123456789012,1,10,2,70,35,no,docile,female,5,4,5
+Vihaan,987654321098,2,15,3,75,40,yes,normal,female,6,3,4
+Vivaan,456123789012,3,20,4,80,45,no,aggressive,male,7,5,3
+Aadhya,321654987012,4,8,1,65,30,no,docile,male,4,2,2
+Anaya,654789123456,5,12,5,85,50,yes,normal,female,8,4,5
+Ishaan,789456123789,6,18,3,90,55,no,aggressive,male,9,5,4
+Kiara,963852741258,7,22,4,72,36,yes,docile,female,5,3,3
+Arjun,159357486213,8,16,2,78,38,no,normal,male,6,4,2
+Diya,753951486325,9,25,5,82,42,yes,aggressive,female,7,5,5
+Kabir,852741963258,10,9,1,68,33,no,docile,male,4,2,3

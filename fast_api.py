@@ -13,31 +13,6 @@ from sklearn.pipeline import Pipeline
 import math 
 
 
-numerical_columns = ["milk_in_litres" , "age" , "height" , "weight" , "hay_grass_intake"]
-categorical_columns = ["pregnancy" , "behavior" , "gender"]
-numerical_pipeline = Pipeline(
-    steps = [
-        ("imputer" , SimpleImputer(strategy = "median")),
-        ("scaler" , StandardScaler())
-    ]
-)
-
-categorical_pipeline = Pipeline(
-    steps=[
-        ("imputer" , SimpleImputer(strategy = "most_frequent")),
-        ("one_hot_encoder" , OneHotEncoder()),
-        ("scaler" , StandardScaler(with_mean = False))
-    ]
-)
-
-preprocessor = ColumnTransformer(
-                [
-                    ("numerical_pipeline",numerical_pipeline,numerical_columns),
-                    ("categorical_pipeline",categorical_pipeline,categorical_columns)
-                ]
-)
-
-
 pregnancy_dict = {
     "no" : 0,
     "yes" : 1
